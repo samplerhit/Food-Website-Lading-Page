@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delight - Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-red-500">Food Delight</h1>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="#home" class="hover:text-red-500">Home</a></li>
+            <li><a href="#about" class="hover:text-red-500">About Us</a></li>
+            <li><a href="#services" class="hover:text-red-500">Services</a></li>
+            <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
+            <li><a href="#signin" class="hover:text-red-500">Sign In</a></li>
+            <li><a href="#signup" class="hover:text-red-500">Sign Up</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="text-center p-16 bg-cover bg-center h-screen flex flex-col justify-center items-center" style="background-image: url('https://source.unsplash.com/1600x900/?food');">
+        <h2 class="text-5xl font-extrabold text-white">Delicious Food at Your Doorstep</h2>
+        <p class="text-lg text-white mt-4">Order your favorite meals from the best chefs in town.</p>
+        <button class="mt-6 px-6 py-3 bg-red-500 text-white font-bold rounded-lg hover:bg-red-700">Order Now</button>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="p-16 bg-white text-center">
+        <h2 class="text-3xl font-bold text-gray-800">About Us</h2>
+        <p class="mt-4 text-gray-600">We provide high-quality, freshly prepared meals made with love.</p>
+    </section>
+    
+    <!-- Services -->
+    <section id="services" class="p-16 bg-gray-200 text-center">
+        <h2 class="text-3xl font-bold text-gray-800">Our Services</h2>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 bg-white shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold text-red-500">Fast Delivery</h3>
+                <p class="mt-2 text-gray-600">Get your food delivered within minutes.</p>
+            </div>
+            <div class="p-6 bg-white shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold text-red-500">Quality Ingredients</h3>
+                <p class="mt-2 text-gray-600">We use only the best and freshest ingredients.</p>
+            </div>
+            <div class="p-6 bg-white shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold text-red-500">24/7 Support</h3>
+                <p class="mt-2 text-gray-600">We are here to help you anytime.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact" class="p-16 bg-white text-center">
+        <h2 class="text-3xl font-bold text-gray-800">Contact Us</h2>
+        <form class="mt-6 max-w-lg mx-auto">
+            <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg mb-4">
+            <input type="email" placeholder="Your Email" class="w-full p-3 border rounded-lg mb-4">
+            <textarea placeholder="Your Message" class="w-full p-3 border rounded-lg mb-4"></textarea>
+            <button class="px-6 py-3 bg-red-500 text-white font-bold rounded-lg hover:bg-red-700">Send</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="p-6 bg-gray-900 text-center text-white">
+        <p>&copy; 2025 Food Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
